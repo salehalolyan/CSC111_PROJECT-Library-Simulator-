@@ -1,6 +1,8 @@
 /*
  * 1. Abdulaziz Alabdulkareem - 446103513
  * 2. Saleh Alolyan - 446100843
+ * 
+ * https://github.com/salehalolyan/CSC111_PROJECT-Library-Simulator-
  */
 
 import java.util.Scanner;
