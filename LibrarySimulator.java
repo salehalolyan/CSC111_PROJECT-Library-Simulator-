@@ -69,18 +69,12 @@ public class LibrarySimulator {
 
                         case 2:
                              // Attempt to borrow a book
-                            if (current.borrowOne())
-                                System.out.println("Book borrowed successfully. Fee: 0.50");
-                            else
-                                System.out.println("Error: You cannot borrow more than 5 books");
+                            current.borrowOne();
                             break;
 
                         case 3:
                             // Attempt to return a book
-                            if (current.returnOne())
-                                System.out.println("Book returned successfully.");
-                            else
-                                System.out.println("Error: No books to return.");
+                            current.returnOne();
                             break;
 
                         case 4:
